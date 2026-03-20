@@ -2,6 +2,7 @@ import './App.css'
 
 import Nav from './Component/Nav/Nav'
 import Header from './Component/Header/Header'
+import Service from './Component/Services/Service'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Nav />
       <Header/>
+      <Service/>
     </>
   )
 }
@@ -17,4 +19,4 @@ export default App
 
 
 // https://nexora-gaming-reactjs.vercel.app/#
-// YouTube: https://youtu.be/hgxjf2sFDvY?si=yxDYsO8-OqVWJoTo 2:30:15
+// YouTube: https://youtu.be/hgxjf2sFDvY?si=yxDYsO8-OqVWJoTo 45:58
