@@ -3,6 +3,8 @@ import './App.css'
 import Nav from './Component/Nav/Nav'
 import Header from './Component/Header/Header'
 import Service from './Component/Services/Service'
+import Marquee from './Component/Marquee/Marquee'
+import GameCards from './Component/GameCards/GameCards'
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
       <Nav />
       <Header/>
       <Service/>
+      <Marquee/>
+      <GameCards/>
     </>
   )
 }
