@@ -23,4 +23,4 @@ export default App
 
 
 // https://nexora-gaming-reactjs.vercel.app/#
-// YouTube: https://youtu.be/hgxjf2sFDvY?si=yxDYsO8-OqVWJoTo 45:58
+// YouTube: https://youtu.be/hgxjf2sFDvY?si=yxDYsO8-OqVWJoTo 55:30
