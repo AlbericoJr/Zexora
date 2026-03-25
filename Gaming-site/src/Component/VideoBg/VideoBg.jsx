@@ -1,10 +1,10 @@
 import React from 'react'
-import VideoBgCss from './VideoBg.module.css'
+import VideoCss from './VideoBg.module.css'
 
 export default function VideoBg() {
   return (
-    <div>
-      VideoBg
+    <div className={VideoCss.bg_video}>
+      <i className={`${VideoCss.play_icon} ri-play-large-fill`}></i>
     </div>
   )
 }
