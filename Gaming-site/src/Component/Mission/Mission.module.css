@@ -1,0 +1,89 @@
+.our_mission{
+  flex-direction: column;
+  gap: 50px;
+}
+
+.mission_head{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.skullImg{
+  background-color: var(--primary-color);
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100%;
+  position: relative;
+}
+
+.skullImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.skullImg::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  animation: Anim_border 2s infinite linear;
+}
+
+.mission_head h2{
+  width: 90%;
+  font-size: 5rem;
+  line-height: 5.5rem;
+  font-weight: 500;
+  font-family: var(--Anton-font);
+}
+
+.mission_infos{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-content: center;
+  place-items: center;
+  gap: 20px;
+}
+
+.info_box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.info_box h1{
+  font-size: 6rem;
+  line-height: 6.5rem;
+  font-weight: 500;
+  font-family: var(--Anton-font);
+}
+
+
+@keyframes Anim_border {
+  0%{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.4;
+  }
+  100%{
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
+  }
+}
