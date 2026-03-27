@@ -7,6 +7,7 @@ import Marquee from './Component/Marquee/Marquee'
 import GameCards from './Component/GameCards/GameCards'
 import VideoBg from './Component/VideoBg/VideoBg'
 import Mission from './Component/Mission/Mission'
+import Team from './Component/Team/Team'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <GameCards/>
       <VideoBg/>
       <Mission/>
+      <Team/>
     </>
   )
 }

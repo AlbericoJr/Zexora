@@ -73,6 +73,29 @@
   font-family: var(--Anton-font);
 }
 
+.info_box::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  z-index: 1;
+  transition: var(--transition2);
+}
+
+.info_box:hover::after{
+  width: 100%;
+}
+
+.info_box h2{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--light-text);
+  text-transform: uppercase;
+  margin: 10px 0;
+}
 
 @keyframes Anim_border {
   0%{
@@ -85,5 +108,55 @@
   100%{
     transform: translate(-50%, -50%) scale(1.5);
     opacity: 0;
+  }
+}
+
+/* MQ SECTION */
+
+@media (max-width:1400px){
+  .mission_head h2{
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+}
+
+@media (max-width:1200px){
+  .mission_head h2{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .mission_infos{
+    width: 85%;
+  }
+}
+
+@media (max-width:900px){
+  .mission_head{
+    flex-direction: row-reverse;
+  }
+  .mission_head h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .mission_infos{
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width:500px){
+  .mission_head{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .mission_head h2{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+  .our_mission{
+    gap: 20px;
   }
 }
