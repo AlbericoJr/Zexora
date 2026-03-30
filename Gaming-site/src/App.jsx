@@ -8,6 +8,7 @@ import GameCards from './Component/GameCards/GameCards'
 import VideoBg from './Component/VideoBg/VideoBg'
 import Mission from './Component/Mission/Mission'
 import Team from './Component/Team/Team'
+import Works from './Component/Works/Works'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <VideoBg/>
       <Mission/>
       <Team/>
+      <Works/>
     </>
   )
 }
@@ -29,4 +31,4 @@ export default App
 
 
 // https://nexora-gaming-reactjs.vercel.app/#
-// YouTube: https://youtu.be/hgxjf2sFDvY?si=yxDYsO8-OqVWJoTo 1:09:50
+// YouTube: https://youtu.be/hgxjf2sFDvY?si=yxDYsO8-OqVWJoTo 1:23:15
