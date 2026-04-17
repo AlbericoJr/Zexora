@@ -1,0 +1,108 @@
+.testimonial{ 
+  flex-direction: column;
+  gap: 50px;
+}
+
+.testSlider {
+  width: 100%;
+}
+
+.test_card{
+  width: 100%;
+  background: #141a21;
+  mask-image: url(../../assets/testi-card-mask3.png);
+  mask-size: 100% 100%;
+  padding: 40px;
+  z-index: -1 !important;
+}
+
+.test_info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.test_info h2{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: var(--Anton-font);
+  transition: var(--transition);
+}
+
+.test_info h2:hover{
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.test_info h5{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.test_card p{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  color: var(--extra-light-text);
+}
+
+.test_box{
+  position: relative;
+  background-color: var(--black-color);
+  border-radius: 20px;
+}
+
+.client_img {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+  z-index: 5 !important;
+  background-color: var(--primary-color);
+}
+
+.client_img img {
+  display: block;
+  object-fit: cover;
+}
+
+/* MQ SECTION */
+@media (max-width: 1200px) {
+  .client_img {
+    top: 0;
+    right: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .client_img {
+    top: 10px;
+    right: 5px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .test_card {
+    padding: 28px 24px;
+  }
+
+  .test_info h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .test_card {
+    padding: 24px 18px;
+    padding-right: 72px;
+  }
+
+  .client_img {
+    right: 12px;
+    width: 52px;
+    height: 52px;
+  }
+}
