@@ -9,6 +9,7 @@ import VideoBg from './Component/VideoBg/VideoBg'
 import Mission from './Component/Mission/Mission'
 import Team from './Component/Team/Team'
 import Works from './Component/Works/Works'
+import Testimonial from './Component/Testimonials/Testimonial'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Mission/>
       <Team/>
       <Works/>
+      <Testimonial/>
     </>
   )
 }
