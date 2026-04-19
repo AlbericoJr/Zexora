@@ -11,6 +11,7 @@ import Team from './Component/Team/Team'
 import Works from './Component/Works/Works'
 import Testimonial from './Component/Testimonials/Testimonial'
 import Contact from './Component/Contact/Contact'
+import Insta from './Component/Insta/Insta'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Works/>
       <Testimonial/>
       <Contact/>
+      <Insta/>
     </>
   )
 }
@@ -35,4 +37,4 @@ export default App
 
 
 // https://nexora-gaming-reactjs.vercel.app/#
-// YouTube: https://youtu.be/hgxjf2sFDvY?si=yxDYsO8-OqVWJoTo 1:55:10
+// YouTube: https://youtu.be/hgxjf2sFDvY?si=yxDYsO8-OqVWJoTo 2:17:10

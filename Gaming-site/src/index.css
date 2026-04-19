@@ -68,6 +68,11 @@ section {
   font-family: var(--Anton-font);
 }
 
+button i{
+  font-size: 1.5rem;
+  margin-left: 5px;
+}
+
 @media (max-width: 900px) {
   .Headings h1{
     font-size: 3rem;
