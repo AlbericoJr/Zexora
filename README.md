@@ -11,12 +11,10 @@
   </p>
 
   <p>
-    <!-- Substitua o link "#" abaixo pela URL do site quando estiver hospedado -->
-    <a href="#" target="_blank"><strong>🔗 Acessar o site ao vivo</strong></a>
+    <a href="https://zexora-eight.vercel.app/" target="_blank"><strong>🔗 Acessar o site ao vivo</strong></a>
   </p>
 
   <p>
-    <!-- Substitua a URL abaixo pela imagem/screenshot do seu projeto -->
     <img src="./src/assets/zexora_print.png" alt="Preview do Projeto Zexora" width="100%" style="max-width: 800px; border-radius: 8px; margin: 15px 0;" />
   </p>
 
