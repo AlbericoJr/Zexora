@@ -4,7 +4,7 @@ import CardBgImg from "../../assets/work-card-bg1-1.png"
 
 export default function Works() {
   return (
-    <div className={WorksCss.our_work}>
+    <div id="projetos" className={WorksCss.our_work}>
       <div className={WorksCss.work_head}>
         <h1>NOSSOS PROJETOS</h1>
       </div>

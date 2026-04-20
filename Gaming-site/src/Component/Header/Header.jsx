@@ -4,7 +4,7 @@ import heroImg from "../../assets/hero.png"
 
 export default function Header() {
   return (
-    <header>
+    <header id="home">
       <div className={HeaderCss.hero_content}>
         <h1 className={HeaderCss.hero_title}>
           NEXORA <span>GAMING</span>

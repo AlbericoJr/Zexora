@@ -10,7 +10,7 @@ import teamImg4 from '../../assets/team-2-4.jpg'
 
 export default function Team() {
   return (
-    <section className={TeamCss.our_team}>
+    <section id="equipe" className={TeamCss.our_team}>
       <div className='Headings'>
         <h2>Nossa equipe</h2>
         <h1>NOSSOS VINGADORES</h1>

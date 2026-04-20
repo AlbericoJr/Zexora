@@ -12,12 +12,12 @@ export default function Nav() {
   return (
     <div className={NavCss.nav}>
       <div className={NavCss.menu} ref={menubar}>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Equipe</a></li>
-        <li><a href="#">Depoimento</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#depoimento">Depoimento</a></li>
+        <li><a href="#contato">Contato</a></li>
       </div>
 
       <div className={NavCss.bars}>
@@ -25,7 +25,7 @@ export default function Nav() {
       </div>
 
       <div className={NavCss.logo}>
-        <a href="#">Zex<span>ora</span></a>
+        <a href="#home">Zex<span>ora</span></a>
       </div>
       
       <div className={NavCss.right_menu}>

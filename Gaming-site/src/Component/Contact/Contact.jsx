@@ -3,7 +3,7 @@ import ContactCss from "./Contact.module.css"
 
 export default function Contact() {
   return (
-    <section className={ContactCss.contact}>
+    <section id="contato" className={ContactCss.contact}>
       <div className={ContactCss.contact_head}>
         <h1>Fale com a nossa equipe</h1>
         <div className={ContactCss.contact_head_text}>

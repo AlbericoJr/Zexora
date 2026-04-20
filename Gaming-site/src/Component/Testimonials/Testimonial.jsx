@@ -8,7 +8,7 @@ import clientImg3 from "../../assets/testimonial-3.png"
 
 export default function Testimonial() {
   return (
-    <section className={TestimonialCss.testimonial}>
+    <section id="depoimento" className={TestimonialCss.testimonial}>
       <div className="Headings">
         <h2>Depoimentos</h2>
         <h1>O QUE AS PESSOAS ESTÃO DIZENDO SOBRE NÓS</h1>

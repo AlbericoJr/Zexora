@@ -3,7 +3,7 @@ import skullImg from '../../assets/skull-icon3.png'
 
 export default function Mission() {
   return (
-    <section className={MissionCss.our_mission}>
+    <section id="sobre" className={MissionCss.our_mission}>
       <div className={MissionCss.mission_head}>
         <div className={MissionCss.skullImg}>
           <img src={skullImg} alt="" />
